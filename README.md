@@ -33,8 +33,9 @@ Refactoring the analysis in order to improve performance.
         
         Next j
 -Instead of only one array (ticker) we created 3 new ones: volume, starting price, and ending price. By doing this, the VBA code was able to hold the arrays in memory and pull them when needed, improving time considerably.
->
 
+
+> 
 '1b) Create three output arrays
     Dim tickerVolumes(11) As Long
     Dim tickerStartingPrices(11) As Single
