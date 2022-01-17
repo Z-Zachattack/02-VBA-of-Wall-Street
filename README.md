@@ -70,10 +70,10 @@ Refactoring the analysis in order to improve performance.
     
     Next i
 ```    
-By running the new code we went from around 1.85 seconds per analysis down to around 0.277 seconds. this is an 85% improvement.
-2017
-![https://github.com/Z-Zachattack/02-VBA-of-Wall-Street/blob/main/Resources/VBA_Challenge_2017.png]
-2018
+By running the new code we went from around 1.85 seconds per analysis down to around 0.277 seconds. this is an 85% improvement. As you can see:
+![2017](https://github.com/Z-Zachattack/02-VBA-of-Wall-Street/blob/main/Resources/VBA_Challenge_2017.png)
+
+![2018](https://github.com/Z-Zachattack/02-VBA-of-Wall-Street/blob/main/Resources/VBA_Challenge_2018.png)
 ## Summary ##
 There is a detailed statement on the advantages and disadvantages of refactoring code in general (3 pt).
 There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
