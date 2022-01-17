@@ -75,5 +75,15 @@ By running the new code we went from around 1.85 seconds per analysis down to ar
 
 ![2018](https://github.com/Z-Zachattack/02-VBA-of-Wall-Street/blob/main/Resources/VBA_Challenge_2018.png)
 ## Summary ##
-There is a detailed statement on the advantages and disadvantages of refactoring code in general (3 pt).
-There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
+### Advantages of Original ###
+The original way of collecting and compiling data had a few interesting advantages, namely: 
+- The original VBA code had fewer keystrokes,
+- fewer arrays, meaning there were less 'under-the-hood' processes
+- Resulting in a more understandable, if only slightly, code. 
+### Advantages of Refactoring ###
+Refactored VBA code also had a few advantages, such as:
+- 85% Faster runtimes
+- fewer computer resources allocated
+- better equiped to deal with ticker changes/additions
+
+All-in-all, I would say that the refractored code was an improvement over the original. That said, it would have been better to use R Script or Python to collect data so that the tickers wouldn't have to be inputted manually.
