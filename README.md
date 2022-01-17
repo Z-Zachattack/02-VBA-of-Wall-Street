@@ -36,7 +36,7 @@ Refactoring the analysis in order to improve performance.
 
 
 > 
-'1b) Create three output arrays
+>'1b) Create three output arrays
     Dim tickerVolumes(11) As Long
     Dim tickerStartingPrices(11) As Single
     Dim tickerEndingPrices(11) As Single
