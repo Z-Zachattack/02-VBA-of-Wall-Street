@@ -8,7 +8,7 @@ The purpose of this project is to utilize VBA in excel to accomplish two general
 ### Refactoring ###
 Refactoring the analysis in order to improve performance.
 - Initially, we only utilized the ticker array to compile the code, this meant that every "For" loop had to figure out the ticker volume and ticker prices individually. While this was effective, and reduced initial coding effort, it resulted in a slower run.
->           
+``` 
          '5) loop through rows in the data
          Worksheets(yearValue).Activate
          For j = 2 To RowCount
@@ -32,13 +32,14 @@ Refactoring the analysis in order to improve performance.
             End If
         
         Next j
+```
 -Instead of only one array (ticker) we created 3 new ones: volume, starting price, and ending price. By doing this, the VBA code was able to hold the arrays in memory and pull them when needed, improving time considerably.
- 
-```  1b) Create three output arrays
+ ```
+    1b) Create three output arrays
     Dim tickerVolumes(11) As Long
     Dim tickerStartingPrices(11) As Single
     Dim tickerEndingPrices(11) As Single
-       ```
+     
     ''2a) Create a for loop to initialize the tickerVolumes to zero.
     For i = 0 To 11
         tickerVolumes(i) = 0
@@ -68,7 +69,7 @@ Refactoring the analysis in order to improve performance.
             End If
     
     Next i
-    
+```    
 
 ## Summary ##
 There is a detailed statement on the advantages and disadvantages of refactoring code in general (3 pt).
