@@ -8,11 +8,14 @@ The purpose of this project is to utilize VBA in excel to accomplish two general
 ### Refactoring ###
 -We refactored the analysis in order to improve performance.
 - Initially, we only utilized the ticker array to compile the code, this meant that every "For" loop had to figure out the ticker volume and ticker prices individually. While this was effective, and reduced initial coding effort, it resulted in a slower run.
->       '5) loop through rows in the data
-        Worksheets(yearValue).Activate
-        For j = 2 To RowCount
+>           
+>          
+>           
+>            '5) loop through rows in the data
+            Worksheets(yearValue).Activate
+            For j = 2 To RowCount
         
-     >      '5a) Get total volume for current ticker
+            '5a) Get total volume for current ticker
             If Cells(j, 1).Value = ticker Then
             totalVolume = totalVolume + Cells(j, 8).Value
         
